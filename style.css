@@ -291,20 +291,20 @@ input[type="submit"]:hover {
 }
 @media screen and (max-width:768px) {
   .back {
-    padding: 
+    padding: 10px 30px;
   }
   .galary{
     flex-direction: column;
     padding: 0 20px;
   }
   .loadmore{
-    padding: 20px 100px;
+    padding: 20px 30px;
   }
   .main_blog{
     flex-direction: column;
     padding: 0 20px;
   }
-  .my_form{
-    
+  form{
+    width: 80vw;
   }
 }
