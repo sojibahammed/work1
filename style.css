@@ -35,7 +35,7 @@ a .fa-map-marker, a .fa-search{
 }
 
 .header {
-  background-image: url("../img/header.jpg");
+  background-image: url("header.jpg");
   height: 800px;
   background-size: cover;
   background-position: center;
@@ -196,7 +196,7 @@ a:hover .text > p {
   margin: 30px 0 0 0px;
 }
 .footer {
-  background-image: url("../img/footer.jpg");
+  background-image: url("footer.jpg");
   text-align: center;
   color: rgb(255, 255, 255);
   background-size: cover;
