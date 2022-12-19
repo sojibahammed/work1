@@ -283,6 +283,9 @@ input[type="submit"]:hover {
 .left,.right{
   padding: 10px 0;
 }
+.small,.small2,.small3{
+  display: none;
+}
 
 
 
@@ -359,4 +362,28 @@ input[type="submit"]:hover {
   .down{
     flex-direction: column;
   }
+}
+@media screen and (max-width:400px) {
+  .small{
+    display: block;
+  }
+  .small2,.small3{
+    display: none;
+  }
+}
+@media screen and (max-width:350px) {
+  .small2{
+    display: block;
+  }
+  .small3,.small{
+    display: none;
+  }
+}
+@media screen and (max-width:300px) {
+  .small3{
+    display: block;
+  }   
+  .small2,.small{
+    display: none;
+  }   
 }
