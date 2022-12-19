@@ -363,7 +363,7 @@ input[type="submit"]:hover {
     flex-direction: column;
   }
 }
-@media screen and (max-width:370px) {
+@media screen and (max-width:361px) {
   .small{
     display: block;
   }
